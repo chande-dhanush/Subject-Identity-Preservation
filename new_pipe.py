@@ -11,10 +11,6 @@ from typing import List, Optional, Union, Tuple
 
 from OmniGen import OmniGenPipeline
 
-# Initialize the pipeline
-pipe = OmniGenPipeline.from_pretrained("Shitao/OmniGen-v1")
-pipe.merge_lora("/mnt/sda1/Dhanush/omnigen/OmniGen/results/dhan_new_lora/checkpoints/0001300")
-
 # Global temp directory for consistent file management
 TEMP_DIR = os.path.join(tempfile.gettempdir(), "omnigen_temp")
 os.makedirs(TEMP_DIR, exist_ok=True)
