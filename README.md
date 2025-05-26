@@ -11,7 +11,6 @@ It allows dynamic **background variation** while preserving the **core identity 
 - 🖼️ Preserve the identity of a subject across multiple generations.
 - 🌆 Dynamically vary the background using textual prompts.
 - 🔧 Easily extendable and modifiable pipeline.
-- 🧩 LoRA Checkpoint integration for fine-tuned control.
 
 ---
 
@@ -22,8 +21,6 @@ subject-identity-preservation/
 ├── OmniGen/                    # Cloned OmniGen repository
 │   ├── app.py                  # Original inference pipeline
 │   ├── new_pipe.py             # Custom pipeline for identity preservation
-│   └── checkpoints/
-│       └── lora_checkpoint.safetensors
 ├── requirements.txt
 ├── README.md
 ```
