@@ -2,7 +2,7 @@
 # 🧬 Subject Identity Preservation with OmniGen
 
 **Subject-Identity-Preservation** is a custom pipeline built upon the **open-source OmniGen model**.  
-It allows dynamic **background variation** while preserving the **core identity of the subject** in an input image — making it perfect for consistent image generation with creative diversity.
+It allows dynamic **background variation** while preserving the **core identity of the subject** in an input image making it perfect for consistent image generation with creative diversity.
 
 ---
 
